@@ -4,3 +4,5 @@
 //
 
 import Foundation
+
+// TODO add your extension to Sequence here
