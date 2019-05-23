@@ -4,6 +4,7 @@
 //
 
 import XCTest
+@testable import HigherOrderFunctionsKata
 
 class ArrayTest: XCTestCase {
 

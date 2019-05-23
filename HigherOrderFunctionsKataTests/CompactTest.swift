@@ -1,12 +1,10 @@
 //
-//  CompactTest.swift
-//  HigherOrderFunctionsKataTests
-//
 //  Created by Emanuel Schmoczer on 20.05.19.
 //  Copyright © 2019 Emanuel Schmoczer. All rights reserved.
 //
 
 import XCTest
+@testable import HigherOrderFunctionsKata
 
 class CompactTest: XCTestCase {
 
