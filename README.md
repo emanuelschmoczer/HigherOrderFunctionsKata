@@ -40,7 +40,7 @@ Then add a more complex test, e.g. test the equality of
 
 For the second task we want to get a list of all cars our customers own.
 
-When using map - e.g.: `customers.map { $0.cars }` - we get an array of arrays: `[["VW Beetle"], ["Audi TT", "VW ID.3"], ["Seat Alhambra", "Seat el-Born"]]`. But our goal is to get an array of strings. Write your own transformation function that returns a "flattened" array, e.g.:
+When using map - e.g.: `customers.map { $0.cars }` - we get an array of arrays: `[["VW Beetle"], ["Audi TT", "VW ID.3"], ["Seat Alhambra", "Seat el-Born"]]`. But our goal is to get an array of strings. Write your own function that takes the transformation function and returns a "flattened" array, e.g.:
 
 ```["VW Beetle", "Audi TT", "VW ID.3", "Seat Alhambra", "Seat el-Born"]```
 
