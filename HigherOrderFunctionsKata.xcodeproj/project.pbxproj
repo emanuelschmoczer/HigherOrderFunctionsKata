@@ -13,7 +13,6 @@
 		8857B429228B5549007B945C /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 8857B428228B5549007B945C /* README.md */; };
 		8857B42D228CA62A007B945C /* OptionalTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8857B42C228CA62A007B945C /* OptionalTest.swift */; };
 		88B5753D2291ED0800F8DA8A /* Optional.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88B5753C2291ED0800F8DA8A /* Optional.swift */; };
-		88F71C78229338180018B0ED /* CompactTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88F71C77229338180018B0ED /* CompactTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +35,6 @@
 		8857B428228B5549007B945C /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		8857B42C228CA62A007B945C /* OptionalTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionalTest.swift; sourceTree = "<group>"; };
 		88B5753C2291ED0800F8DA8A /* Optional.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Optional.swift; sourceTree = "<group>"; };
-		88F71C77229338180018B0ED /* CompactTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompactTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,7 +91,6 @@
 				8857B418228A103B007B945C /* Info.plist */,
 				8857B426228A114F007B945C /* ArrayTest.swift */,
 				8857B42C228CA62A007B945C /* OptionalTest.swift */,
-				88F71C77229338180018B0ED /* CompactTest.swift */,
 			);
 			path = HigherOrderFunctionsKataTests;
 			sourceTree = "<group>";
@@ -219,7 +216,6 @@
 			files = (
 				8857B427228A114F007B945C /* ArrayTest.swift in Sources */,
 				8857B42D228CA62A007B945C /* OptionalTest.swift in Sources */,
-				88F71C78229338180018B0ED /* CompactTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

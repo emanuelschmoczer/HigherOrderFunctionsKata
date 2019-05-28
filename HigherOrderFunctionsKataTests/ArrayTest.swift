@@ -8,15 +8,22 @@ import XCTest
 
 class ArrayTest: XCTestCase {
 
+    let emptyCustomers: [Customer] = []
+
     let customers = [
         Customer(name: "Alice", cars: ["VW Beetle"]),
         Customer(name: "Bob", cars: ["Audi TT", "VW ID.3"]),
-        Customer(name: "Chloe", cars: ["Seat Alhambra", "Seat el-Born"]),
-        Customer(name: "Dennis", cars: [])
+        Customer(name: "Chloe", cars: ["Seat Alhambra", "Seat el-Born"])
     ]
 
-    func testExample() {
-        XCTAssertEqual(customers.map { customer in customer.name }, ["Alice", "Bob", "Chloe", "Dennis"])
+    func testEmptyArray() {
+        // TODO write your first test here
+
+    }
+
+    func testAllCustomerNames() {
+//        let expectedResult = ["Alice", "Bob", "Chloe"]
+
     }
 }
 
